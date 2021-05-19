@@ -1,7 +1,7 @@
 const { maxSubArray } = require('../lib/max_subarray');
 const { expect } = require('chai');
 
-describe.skip("maxSubArray", function () {
+describe("maxSubArray", function () {
   it("will work for [-2,1,-3,4,-1,2,1,-5,4]", function () {
     
     // Arrange
